@@ -8,7 +8,6 @@ let myScales: number[][] = [
     [1, 3, 6, 8, 10, 1, 3, 13, 13, 13]
     ]
 
-//basic.showNumber(myScales[3][5])
 
 let octaves: number[] = [ 1, 2, 4, 6 ];
 let availReps: number[] = [ 2, 2, 4, 4, 4, 4, 8, 8, 1 ];
@@ -92,8 +91,8 @@ namespace generativeMelody {
      * @param value describe value here, eg: 5
      */
     //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
+    export function fob(value: number): number {
+        return value <= 1 ? value : fob(value -1) + fob(value - 2);
     }
 }
 
